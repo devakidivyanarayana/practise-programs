@@ -1,0 +1,15 @@
+package boot;
+public class Intersectarray {
+public static void main(String[] args) {
+int[] arra = {10, 4, 5, 8, 6};
+int[] arrb = {9, 5, 4, 7, 11};
+for(int i = 0; i < arra.length; i++){
+for(int j = 0; j < arrb.length; j++){
+if(arra[i] == arrb[j]){
+ System.out.print(arra[i] + " ");
+ break;
+ }
+ }
+}
+}
+}
